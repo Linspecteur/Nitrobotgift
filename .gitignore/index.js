@@ -4,7 +4,7 @@ const client = new Discord.Client(); //Que votre Bot est un nouvel utilisateur
 
 var prefix = "*"; //Prefix de votre Bot ( *play www.youtube.com/ )
 
-client.login("nitro"); //Token (Série de chiffre) propre a chaque Bot
+client.login("process.env.token"); //Token (Série de chiffre) propre a chaque Bot
 
 client.on("ready", () => { //Signifie que le bot à bien démarré
     console.log("Je suis prêt !"); //Lorsque que le bot est lancé observer la console Visual Studio
