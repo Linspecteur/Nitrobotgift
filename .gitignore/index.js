@@ -8,5 +8,5 @@ client.login(process.env.token); //Token (Série de chiffre) propre a chaque Bot
 
 client.on("ready", () => { //Signifie que le bot à bien démarré
     console.log("Je suis prêt !"); //Lorsque que le bot est lancé observer la console Visual Studio
-    client.user.setGame("L'ELITE🌟"); //Voir le Jeu sur le Discord
+    client.user.setGame("L'ELITE🌟 | 20 invites = 1 Nitro"); //Voir le Jeu sur le Discord
 });
