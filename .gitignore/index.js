@@ -1,5 +1,9 @@
 const Discord = require('discord.js'); //Ce que le bot à besoin /
-
+const GuildChannel = require('./GuildChannel');
+const { browser } = require('../util/Constants');
+const Permissions = require('../util/Permissions');
+const Collection = require('../util/Collection');
+const { Error } = require('../errors');
 
 const client = new Discord.Client(); //Que votre Bot est un nouvel utilisateur
 
