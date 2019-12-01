@@ -1,4 +1,5 @@
 const Discord = require('discord.js'); //Ce que le bot à besoin /
+const ffmpeg = require('ffmpeg');
 
 const client = new Discord.Client(); //Que votre Bot est un nouvel utilisateur
 
